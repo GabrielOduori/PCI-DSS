@@ -21,6 +21,32 @@ required to conduct a PCI DSS analys and audit.
 12. Requirement_12
 """
 
+
+
+import platform
+
+get_OS = platform.system()
+np = platform.architecture()
+nx = platform.machine()
+ny = platform.mac_ver()
+nn = platform.java_ver()
+no = platform.version()
+# print(get_OS)
+print(nx)
+# print(nx)
+# print(ny)
+# print(nn)
+# print(no)
+
+print( get_OS + " Version " + no )
+
+
+
+
+            
+# If OS ia windows:
+# ren windows filse
+
 # Requirement 01
 # Requirement 1: Install and maintain a firewall configuration to protect cardholder data
     
